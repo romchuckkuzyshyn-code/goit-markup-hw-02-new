@@ -27,6 +27,17 @@ img {
     height: auto;
 }
 
+.nav-head {
+    font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4d5ae5;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
 .container {
     max-width: 1158px;
     margin: 0 auto;
@@ -157,4 +168,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-text-color);
+}
+
+.team-list-item {
+    background-color: #ffffff;
 }
