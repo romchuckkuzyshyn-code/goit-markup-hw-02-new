@@ -19,13 +19,13 @@ h1, h2, h3, h4, h5, h6, p {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
 }
 
-img {
+/* img {
     max-width: 100%;
     height: auto;
-}
+} */
 
 .nav-head {
     font-family: "Raleway", sans-serif;
@@ -39,14 +39,14 @@ img {
 }
 
 .container {
-    max-width: 1158px;
+    /* max-width: 1158px; */
     margin: 0 auto;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
+    /* position: absolute; */
+    /* width: 1px; */
+    /* height: 1px; */
     overflow: hidden;
     clip: rect(0 0 0 0);
     clip-path: inset(100%);
@@ -64,7 +64,10 @@ img {
     color: #4d5ae5;
 }
 
-.span-logo {
+.logo-link {
+    color: #4d5ae5;
+}
+.logo-span {
     color: #2e2f42;
 }
 
